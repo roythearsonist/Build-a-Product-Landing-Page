@@ -14,3 +14,8 @@ color: blue;
 button {
 background-color: red;
 }
+nav {
+position: fixed;
+top: 0px;
+left: 0px;
+}
