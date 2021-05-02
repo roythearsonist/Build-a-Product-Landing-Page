@@ -2,3 +2,9 @@
 :root {
 background-color: #d3d3d3;
 }
+.center{
+text-align: center;
+}
+.flex{
+display: block;
+}
