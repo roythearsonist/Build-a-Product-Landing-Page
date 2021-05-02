@@ -8,3 +8,9 @@ text-align: center;
 .flex{
 display: block;
 }
+.nav-link{
+color: blue;
+}
+button {
+background-color: red;
+}
