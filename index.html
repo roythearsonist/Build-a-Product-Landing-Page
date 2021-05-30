@@ -19,8 +19,11 @@ text-align: center;
 .flex{
 display: block;
 }
-button {
+#nav-bar a{
 background-color: red;
+border: 1px solid black;
+display:flex;
+flex-direction: row;
 }
 #nav-bar {
 position: fixed;
@@ -35,15 +38,14 @@ color: blue;
 <header id="header">
 <h1 id="title" class="center">Github</h1>
 <nav id="nav-bar">
-<button class="nav-link" href="#header-img">   
+<a class="nav-link" href="#header-img">   
 Company image
-</button>
-<button class="nav-link">
-<a href="#video">Company Video</a>
-</button>
-<button class="nav-link">
-<a href="#form">Sign Up</a>
-</button>
+</a>
+<a href="#video" class="nav-link">
+Company Video
+</a>
+<a href="form" class="nav-link">
+Sign Up</a>
 </nav>
 <img src="github-mark.png" alt="Github Logo" id="header-img">
 </header>
