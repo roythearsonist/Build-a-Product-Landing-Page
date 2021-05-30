@@ -5,6 +5,11 @@
 </head>
 <!--Making things easier for pasting-->
 <style>
+@media (max-width:1000px){
+#header-img{
+width: 800px;
+}
+}
 :root {
 background-color: #d3d3d3;
 }
@@ -14,24 +19,24 @@ text-align: center;
 .flex{
 display: block;
 }
-.nav-link{
-color: blue;
-}
 button {
 background-color: red;
 }
-nav {
+#nav-bar {
 position: fixed;
 top: 0px;
 left: 0px;
 }
+#navbar .nav-link{
+color: blue;
+}
 </style>
 <body>
 <header id="header">
-<h1 style="text-align: center;">Github</h1>
+<h1 id="title"> class="center">Github</h1>
 <nav id="nav-bar">
-<button class="nav-link">   
-<a href="#header-img">Company Image</a>
+<button class="nav-link" href="#header-img">   
+Company image
 </button>
 <button class="nav-link">
 <a href="#video">Company Video</a>
@@ -42,7 +47,7 @@ left: 0px;
 </nav>
 <img src="github-mark.png" alt="Github Logo" id="header-img">
 </header>
-<h2 style="text-align: center;"> Our latest video</h2>
+<h2 class="center"> Our latest video</h2>
 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/H7CRtal714Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <form action="https://www.freecodecamp.org/email-submit" id="form">
 <p>Sign up for email updates!</p>
